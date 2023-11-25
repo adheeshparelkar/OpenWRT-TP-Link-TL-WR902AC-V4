@@ -14,7 +14,7 @@ As of November 2023, OpenWrt does not officially support the V4 for TP-Link TL-W
 
 Flashing Process:
 
-Please refer to Openwrts instructions for v3 here (https://openwrt.org/toh/tp-link/tl-wr902ac_v3). They remain the same for v4. 
+Please refer to Openwrt's instructions for v3 here (https://openwrt.org/toh/tp-link/tl-wr902ac_v3). They remain the same for v4. 
 
 Be sure to verify the sha256 checksum for the .bin file with the downloaded sha256sums file. This is extremely important not since an improperly downloaded or corrupted firmware file will brick your router. For Linux use “sha256sum -a <filepath>”, for MacOS use command “shasum -a 256 <filepath>” in terminal. For Windows use “certutil -hashfile <path> SHA256” 
 
